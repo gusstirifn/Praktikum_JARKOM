@@ -14,25 +14,45 @@ Instalasi berjalan tanpa kendala, hanya butuh waktu beberapa menit hingga Wiresh
 ### Dokumentasi Instalasi
 Saya mengambil beberapa screenshot selama proses instalasi untuk dokumentasi:
 - Halaman download Wireshark:
-  ![Wireshark Website](../Image/wiresharkWebsite.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (10)](https://github.com/user-attachments/assets/877c132a-1817-487a-904a-b127833aa970)
+
 - Langkah awal setup:
-  ![install setup part 1](../Image/installationSetupPart1.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (8)](https://github.com/user-attachments/assets/c9c13184-2a95-4f31-b61c-1b7a7617f3bc)
+
 - Persetujuan lisensi:
-  ![install setup part 2]()
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (6)](https://github.com/user-attachments/assets/881695d7-7a40-422a-b494-3d0d9ac02659)
+
 - Pemilihan fitur yang akan diinstal:
-  ![install setup part 3](../Image/installationSetupPart3.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (5)](https://github.com/user-attachments/assets/6ece5ced-4474-40d1-b339-708d5db69951)
+
 - Konfigurasi lokasi instalasi:
-  ![install setup part 4](../Asset/Image/installationSetupPart4.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (4)](https://github.com/user-attachments/assets/a05043fc-cafd-45f9-a1f7-8a5184739f36)
+
 - Proses instalasi sedang berjalan:
-  ![install setup part 5](../Asset/Image/installationSetupPart5.png)
-  ![install setup part 6](../Asset/Image/installationSetupPart6.png)
-  ![install setup part 7](../Asset/Image/installationSetupPart7.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (3)](https://github.com/user-attachments/assets/30190055-b02c-4e79-940c-4bedffbcec15)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (2)](https://github.com/user-attachments/assets/0aba776b-5af2-4a2f-951f-1240aa64cdfb)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (1)](https://github.com/user-attachments/assets/39ebd652-aa7c-4398-b416-29014c0b4bf6)
+
 - Penambahan komponen WinPcap/Npcap:
-  ![install setup part 8](../Asset/Image/installationSetupPart8.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08](https://github.com/user-attachments/assets/cfd60a8d-93fe-4fec-b4b0-a88ae7b948f9)
+
 - Tahap akhir instalasi:
-  ![install setup part 9](../Asset/Image/installationSetupPart9.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 07](https://github.com/user-attachments/assets/1d08cf67-d762-4413-a4f3-3e0b8aa3c1ed)
+
 - Instalasi berhasil diselesaikan:
-  ![install setup done](../Asset/Image/installationSetupDone.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (9)](https://github.com/user-attachments/assets/2748d1fb-960b-4e9a-8958-6ccf0878d69a)
+
 ## Tugas Praktikum Week 1 (modul 2)
 Dengan Wireshark sudah terinstal, saya lanjut ke bagian kedua modul 2 yang fokus pada pengamatan interaksi HTTP GET dan response.
 1. Buka aplikasi Wireshark dan pilih interface jaringan aktif (dalam kasus saya, Wi-Fi). Pastikan VPN dimatikan jika sedang aktif untuk menghindari gangguan dalam penangkapan paket.
@@ -45,13 +65,21 @@ Melalui aktivitas ini, saya belajar lebih dalam tentang mekanisme permintaan HTT
 ### Lampiran
 Screenshot-screenshot berikut diambil saat melakukan tugas praktikum:
 - Antarmuka utama Wireshark setelah aplikasi diluncurkan:
-  ![Tampilan Wireshark](../Asset/Image/tampilanWireshark.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (11)](https://github.com/user-attachments/assets/3d8f21f0-5bf9-46ff-ae69-0133e4df1c9e)
+  
 - Daftar paket yang berhasil ditangkap melalui koneksi Wi-Fi:
-  ![Tampilan Capture from Wi-Fi](../Asset/Image/tampilanCaptureFromWifi.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (13)](https://github.com/user-attachments/assets/9d0c8dc2-1ffd-4e89-80a5-ca2bdb29fa7d)
+
 - Tampilan browser yang menunjukkan halaman lab sederhana:
-  ![Tampilan Browser pada link html](../Asset/Image/tampilanBrowserPadaLinkHtml.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (14)](https://github.com/user-attachments/assets/538f8602-1b71-4ae9-8c28-983d024b0fa0)
+
 - Hasil filter paket menggunakan kata kunci "http":
-  ![Tampilan Capture from Wi-Fi With Filter HTTP](../Asset/Image/tampilanCaptureFromWifiWithFilterHTTP.png)
+
+![WhatsApp Image 2026-03-09 at 00 52 08 (12)](https://github.com/user-attachments/assets/e4ecc729-4b97-4939-a2ed-18ea8a2cd9f9)
+
 - Isi dari "Line-based text data" yang berisi respons HTML:
-  ![Line-Based Text Data: text/html](../Asset/Image/lineBasedTextDataHtmlVer.png)
-  Gambar ini menunjukkan contoh output yang wajib dicantumkan dalam laporan.
+
+![WhatsApp Image 2026-03-09 at 00 52 10](https://github.com/user-attachments/assets/1917ed66-fa1c-458f-9d0d-51e7a814e950)
