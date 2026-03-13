@@ -4,82 +4,77 @@ NIM        : 103072400150
 Kelas      : IF-04-05  
 Mata Kuliah: Jaringan Komputer  
 __________________________________________
-## Instalasi Wireshark (modul 1)
-Awal dari praktikum ini dimulai dengan instalasi Wireshark. Ini adalah langkah penting agar bisa melanjutkan ke tugas-tugas berikutnya. Berikut adalah prosedur yang saya lakukan:
+
+## Modul 1 RUNNING MODUL 
+Tujuan Praktikum 
+1.	Mahasiswa mengetahui aturan dan sistem pelaksanaan praktikum  
+2.	Mahasiswa mengetahui tools yang akan digunakan dan memastikan tools berfungsi dengan baik selama pelaksanaan pratikum  
+ 
+
+Berikut adalah tahapan instalasi wireshark :
 1. Kunjungi situs web resmi Wireshark melalui browser di alamat https://www.wireshark.org/download.html.
-2. Unduh installer yang sesuai dengan OS yang digunakan (seperti Windows atau Linux), pastikan memilih versi stabil terbaru.
-3. Setelah unduhan selesai, klik dua kali pada file installer untuk menjalankannya.
-4. Ikuti panduan instalasi step by step hingga prosesnya berakhir; tentukan folder instalasi dan tunggu sampai selesai.
+2. Unduh installer yang sesuai dengan OS yang digunakan (seperti Windows atau Linux).
+3. Setelah unduhan selesai, lalu menjalankan file installer yang telah diunduh.
+4. Ikuti panduan instalasi step by step hingga prosesnya berakhir.
 Instalasi berjalan tanpa kendala, hanya butuh waktu beberapa menit hingga Wireshark siap digunakan.
 ### Dokumentasi Instalasi
-Saya mengambil beberapa screenshot selama proses instalasi untuk dokumentasi:
-- Halaman download Wireshark:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (10)](https://github.com/user-attachments/assets/877c132a-1817-487a-904a-b127833aa970)
+- Tahap pertama installer akan memasang Wireshark, dengan menekan tombol next.
 
-- Langkah awal setup:
+<img width="497" height="391" alt="Screenshot 2026-03-14 004850" src="https://github.com/user-attachments/assets/e4fb8933-dba9-4d21-a24a-d9e9b83043dc" />
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (8)](https://github.com/user-attachments/assets/c9c13184-2a95-4f31-b61c-1b7a7617f3bc)
 
-- Persetujuan lisensi:
+- Pada tahap ini dapat memilih fitur tambahan :
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (6)](https://github.com/user-attachments/assets/881695d7-7a40-422a-b494-3d0d9ac02659)
+<img width="501" height="391" alt="Screenshot 2026-03-14 004919" src="https://github.com/user-attachments/assets/c791d1ad-2695-41f4-b5fb-bd484f4b816a" />
 
-- Pemilihan fitur yang akan diinstal:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (5)](https://github.com/user-attachments/assets/6ece5ced-4474-40d1-b339-708d5db69951)
+- Konfigurasi lokasi instalasi :
 
-- Konfigurasi lokasi instalasi:
+<img width="496" height="386" alt="Screenshot 2026-03-14 004939" src="https://github.com/user-attachments/assets/7c5a59d2-2550-4b04-8cce-bfebd3b6a1b7" />
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (4)](https://github.com/user-attachments/assets/a05043fc-cafd-45f9-a1f7-8a5184739f36)
 
 - Proses instalasi sedang berjalan:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (3)](https://github.com/user-attachments/assets/30190055-b02c-4e79-940c-4bedffbcec15)
+<img width="502" height="387" alt="Screenshot 2026-03-14 004958" src="https://github.com/user-attachments/assets/45ebdf9c-4a8b-42d1-a2e6-6dd4196692e5" />
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (2)](https://github.com/user-attachments/assets/0aba776b-5af2-4a2f-951f-1240aa64cdfb)
-
-![WhatsApp Image 2026-03-09 at 00 52 08 (1)](https://github.com/user-attachments/assets/39ebd652-aa7c-4398-b416-29014c0b4bf6)
-
-- Penambahan komponen WinPcap/Npcap:
-
-![WhatsApp Image 2026-03-09 at 00 52 08](https://github.com/user-attachments/assets/cfd60a8d-93fe-4fec-b4b0-a88ae7b948f9)
-
-- Tahap akhir instalasi:
-
-![WhatsApp Image 2026-03-09 at 00 52 07](https://github.com/user-attachments/assets/1d08cf67-d762-4413-a4f3-3e0b8aa3c1ed)
 
 - Instalasi berhasil diselesaikan:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (9)](https://github.com/user-attachments/assets/2748d1fb-960b-4e9a-8958-6ccf0878d69a)
+<img width="498" height="384" alt="Screenshot 2026-03-14 005140" src="https://github.com/user-attachments/assets/0a3d812d-0594-4beb-88aa-69334ee71467" />
 
-## Tugas Praktikum Week 1 (modul 2)
-Dengan Wireshark sudah terinstal, saya lanjut ke bagian kedua modul 2 yang fokus pada pengamatan interaksi HTTP GET dan response.
-1. Buka aplikasi Wireshark dan pilih interface jaringan aktif (dalam kasus saya, Wi-Fi). Pastikan VPN dimatikan jika sedang aktif untuk menghindari gangguan dalam penangkapan paket.
+
+## Modul 2 PENGENALAN TOOLS 
+Tujuan Praktikum 
+1.	Mahasiswa dapat melakukan instalasi tool yang digunakan (Wireshark). 
+2.	Mahasiswa dapat menggunakan tool (Wireshark) untuk menangkap dan mengidentifikasi paket data  
+
+Dengan Wireshark sudah terinstal, fokus pada pengamatan interaksi HTTP GET dan response.
+1. Buka aplikasi Wireshark dan pilih interface jaringan aktif (dalam kasus saya, Wi-Fi).
 2. Buka browser dan akses URL berikut: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html. Halaman web tersebut menampilkan pesan singkat: "Congratulations! You've downloaded the first Wireshark lab file!"
-3. Kembali ke Wireshark, masukkan kata "http" di kolom filter tanpa tanda kutip, kemudian tekan Enter untuk memfilter paket HTTP saja.
+3. Kembali ke Wireshark, masukkan kata "http" di kolom filter.
 4. Cari entri dengan label "(text/html)" di daftar paket, lalu klik ikon panah untuk memperluas detailnya.
-5. Pada bagian "Line-based text data", isi HTML yang diterima terlihat seperti ini:
-6. Untuk mengakhiri, klik tombol stop capture di menu dan tutup sesi tangkapan tersebut.
-Melalui aktivitas ini, saya belajar lebih dalam tentang mekanisme permintaan HTTP dari browser dan bagaimana respons ditampilkan dalam Wireshark.
+5. Pada bagian "Line-based text data", isi HTML yang diterima :
+6. Pada tahap akhir, klik tombol stop capture di menu dan tutup sesi tangkapan tersebut.
+Saya belajar lebih dalam tentang mekanisme permintaan HTTP dari browser dan bagaimana respons ditampilkan dalam Wireshark.
 ### Lampiran
 Screenshot-screenshot berikut diambil saat melakukan tugas praktikum:
-- Antarmuka utama Wireshark setelah aplikasi diluncurkan:
+- Tampilan utama Wireshark ketika pertama diluncurkan:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (11)](https://github.com/user-attachments/assets/3d8f21f0-5bf9-46ff-ae69-0133e4df1c9e)
-  
+<img width="1919" height="1030" alt="Screenshot 2026-03-14 005231" src="https://github.com/user-attachments/assets/c3e68d4b-447d-49d8-a7ca-e0e852266744" />
+
 - Daftar paket yang berhasil ditangkap melalui koneksi Wi-Fi:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (13)](https://github.com/user-attachments/assets/9d0c8dc2-1ffd-4e89-80a5-ca2bdb29fa7d)
+<img width="1919" height="1010" alt="Screenshot 2026-03-14 005408" src="https://github.com/user-attachments/assets/ad2a48ee-f72e-4b76-bbf6-7698a5901ce1" />
 
 - Tampilan browser yang menunjukkan halaman lab sederhana:
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (14)](https://github.com/user-attachments/assets/538f8602-1b71-4ae9-8c28-983d024b0fa0)
+<img width="1919" height="991" alt="Screenshot 2026-03-14 005513" src="https://github.com/user-attachments/assets/9c936016-66b7-435f-b7a3-77d137b94788" />
 
 - Hasil filter paket menggunakan kata kunci "http":
 
-![WhatsApp Image 2026-03-09 at 00 52 08 (12)](https://github.com/user-attachments/assets/e4ecc729-4b97-4939-a2ed-18ea8a2cd9f9)
+<img width="1918" height="1035" alt="Screenshot 2026-03-02 162037" src="https://github.com/user-attachments/assets/93bf6802-d396-4f01-b145-53bd03f40cca" />
 
 - Isi dari "Line-based text data" yang berisi respons HTML:
 
-![WhatsApp Image 2026-03-09 at 00 52 10](https://github.com/user-attachments/assets/1917ed66-fa1c-458f-9d0d-51e7a814e950)
+<img width="601" height="116" alt="image" src="https://github.com/user-attachments/assets/3d14f817-4ebc-43e3-ae85-d9a20be22003" />
