@@ -1,4 +1,4 @@
-# Modul 3 - HTTP
+# Laporan Praktikum Modul 3 - HTTP
 
 **Nama:** Gusti Rifan  
 **NIM:** 103072400150  

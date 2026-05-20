@@ -1,9 +1,11 @@
-# Laporan Praktikum Week 1
-Nama       : Gusti Rifan  
-NIM        : 103072400150
-Kelas      : IF-04-05  
-Mata Kuliah: Jaringan Komputer  
-__________________________________________
+# Laporan Praktikum Modul 1
+
+**Nama:** Gusti Rifan  
+**NIM:** 103072400150  
+**Kelas:** IF-04-05  
+**Mata Kuliah:** Jaringan Komputer
+
+---
 
 ## Modul 1 RUNNING MODUL 
 Tujuan Praktikum 

@@ -1,4 +1,4 @@
-# Modul Modul 4 DNS 
+# Laporan Praktikum Modul 4 DNS 
 
 **Nama:** Gusti Rifan  
 **NIM:** 103072400150  

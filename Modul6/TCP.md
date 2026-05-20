@@ -1,4 +1,4 @@
-# Modul 6 TCP 
+# Laporan Praktikum Modul 6 TCP
 
 **Nama:** Gusti Rifan  
 **NIM:** 103072400150  
