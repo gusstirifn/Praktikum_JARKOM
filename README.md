@@ -27,7 +27,7 @@ Isi repository meliputi:
 ### Networking
 
 * Wireshark
-* Command Prompt / PowerShell
+* Visual Studio Code
 
 ### Programming
 
