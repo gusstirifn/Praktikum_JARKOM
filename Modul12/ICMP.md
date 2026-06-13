@@ -46,7 +46,7 @@ ICMP bekerja berdampingan dengan protokol IP. Saat sebuah paket IP dikirimkan, i
 1. Bukak wireshark dan pilih salah satu jaringan (Wifi), lalu aktifkan / capture
 2. Buka CMD, kemudian ketikan perintah ping -n 10 www.ust.hk
 
-[Pinging www.ust.hk](/assets/image/M12/Pinging%20www.ust.hk.png)
+![Pinging www.ust.hk](/assets/image/M12/Pinging%20www.ust.hk.png)
 
 3. Stop capture pada wireshark
 4. Lakukan filter ICMP
@@ -57,14 +57,14 @@ Analisis
 
 - Pesan ICMP 
 
-[ICMP](/assets/image/M12/ICMP.png)
+![ICMP](/assets/image/M12/ICMP.png)
 
 Perintah ping menghasilkan dua jenis pesan ICMP, yaitu Echo Request dan Echo Reply. Pada percobaan ini digunakan perintah ping -n 10, yang berarti sistem mengirimkan sepuluh permintaan ping ke host tujuan. Setiap permintaan akan menghasilkan satu paket Echo Request dan satu paket Echo Reply sebagai balasannya. Oleh karena itu, total paket ICMP yang terekam pada Wireshark adalah sebanyak dua puluh paket yang terdiri dari sepuluh request dan sepuluh reply.
 
 - Format dan Isi Pesan ICMP
     1. ICMP Echo Request
 
-    [echoRequest](/assets/image/M12/echoRequest.png)
+    ![echoRequest](/assets/image/M12/echoRequest.png)
 
     - Perhatikan bahwa paket ICMP ini adalah Tipe 8 dan Kode 0 - yang disebut paket "echo request" ICMP. Perhatikan juga bahwa paket ICMP ini berisi checksum, identifier, dan sequence number.
     - Checksum = 0x4d4c [correct], menandakan checksum valid sehingga paket tidak mengalami kerusakan/error saat dikirim
@@ -72,7 +72,7 @@ Perintah ping menghasilkan dua jenis pesan ICMP, yaitu Echo Request dan Echo Rep
 
     2. ICMP Echo Reply
 
-    [echoReply](/assets/image/M12/echoReplay.png)
+    ![echoReply](/assets/image/M12/echoReplay.png)
 
     Paket ICMP Echo Reply (Type 0) merupakan balasan dari ICMP Echo Request yang digunakan dalam proses ping. Paket memiliki checksum yang valid sehingga tidak terjadi kerusakan data selama transmisi. Identifier bernilai 1 dan sequence number 2719 digunakan untuk mencocokkan paket balasan dengan paket permintaan. Wireshark menunjukkan bahwa paket ini merupakan balasan terhadap frame 1967 dengan waktu respons (RTT) sebesar 84,264 ms, yang menandakan host tujuan berhasil dijangkau melalui jaringan.
 
@@ -81,7 +81,7 @@ Perintah ping menghasilkan dua jenis pesan ICMP, yaitu Echo Request dan Echo Rep
 1. Bukak wireshark dan pilih salah satu jaringan (Wifi), lalu aktifkan / capture
 2. Buka CMD, kemudian ketikan perintah tracert www.ust.hk
 
-[ICMPtracert](/assets/image/M12/ICMPtracert.png)
+![ICMPtracert](/assets/image/M12/ICMPtracert.png)
 
 3. Stop capture pada wireshark
 4. Lakukan filter ICMP
@@ -92,7 +92,7 @@ Analisis :
 
 - Pesan ICMP yang dihasilkan oleh program tracerout
 
-[ICMPtraceroutWS](/assets/image/M12/ICMPtraceroutWS.png)
+![ICMPtraceroutWS](/assets/image/M12/ICMPtraceroutWS.png)
 
 Proses traceroute menghasilkan beberapa jenis pesan ICMP untuk mengidentifikasi jalur yang dilewati paket menuju host tujuan. Pada hasil pengamatan, ditemukan dua jenis pesan utama, yaitu:
 
@@ -102,10 +102,10 @@ Proses traceroute menghasilkan beberapa jenis pesan ICMP untuk mengidentifikasi 
 - Format dan Isi Pesan ICMP
     ICMP Echo Request:
     
-    [ICMPechoRequest](/assets/image/M12/ICMPechoRequest.png)
+    ![ICMPechoRequest](/assets/image/M12/ICMPechoRequest.png)
 
     ICMP Time Exceeded :
 
-    [ICMPttl](/assets/image/M12/ICMPttl.png)
+    ![ICMPttl](/assets/image/M12/ICMPttl.png)
 
 Pesan ICMP Time Exceeded digunakan oleh traceroute untuk mengidentifikasi setiap router yang dilewati paket. Dengan memanfaatkan informasi tersebut, jalur komunikasi dari sumber menuju tujuan dapat diketahui secara bertahap.
